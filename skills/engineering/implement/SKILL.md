@@ -4,6 +4,8 @@ description: "Implement a piece of work based on a spec or set of tickets."
 disable-model-invocation: true
 ---
 
+Start on a live branch: run `git fetch --prune`, and if the current branch's upstream is gone, its work has already merged. Create a new branch from the default branch's remote tip, carrying any uncommitted changes, and tell the user in one line.
+
 Implement the work described by the user in the spec or tickets.
 
 If the user passes a ticket reference, fetch it from the issue tracker and state its title before starting. If the reference is ambiguous, ask.
